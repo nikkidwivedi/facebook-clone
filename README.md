@@ -1,6 +1,6 @@
 ### This repository i created for learning purpose. 
 ### Hello it's nikki here i'm learning ReactJS. 
-### I started creating clone of facebook webpp try.
+### I started creating clone of facebook WebApp.
 ### It's unresponsive for now Next time try to make responsive one...
 ### Individual project | Build and executed in 2 days
 
