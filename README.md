@@ -3,6 +3,7 @@
 ### I started creating clone of facebook WebApp.
 ### It's unresponsive for now Next time try to make responsive one...
 ### Individual project | Build and executed in 2 days
+## Screenshots of my project are added in screenshot folder.
 
 ---------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
