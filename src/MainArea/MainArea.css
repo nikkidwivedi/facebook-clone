@@ -1,0 +1,194 @@
+.Main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Rside, .Lside{
+  height: 75rem;
+  width: 30%;
+  left: 0;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.feature{
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin: .5rem;
+}
+
+.feature>img, .feature>svg, .ctitle>img{
+  margin: .5rem;
+  border-radius: 50%;
+  border: .2rem solid white;
+  box-shadow: 0 0 8px rgb(155, 154, 154);
+}
+
+.feature>svg{
+  padding: .5rem;
+  margin: .5rem;
+  color: #1877F2;
+}
+
+.feature>h3, .ctitle>h3{
+  margin-left: .5rem;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.Mside{
+  height: 75rem;
+  width: 40%;
+  left: 0;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.category{
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 8px rgb(155, 154, 154);
+  background-color: white;
+}
+
+.category-title{
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(163, 155, 155);
+}
+
+.addStory{
+  display: flex;
+}
+
+.Story{
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: .5rem;
+  box-shadow: 0 0 8px rgb(155, 154, 154);
+  padding: .5rem;
+  margin: .1rem;
+  width: 15rem;
+}
+
+.Story>img{
+  margin-right: 8.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: .2rem solid white;
+  box-shadow: 0 0 8px rgb(155, 154, 154);
+}
+
+.Story>p{
+  color: white;
+}
+
+.channel{
+  box-sizing: border-box;
+  height: auto;
+  width: auto;
+  background-color: white;
+  margin-block: 1rem;
+  box-shadow: 0 0 8px rgb(155, 154, 154);
+  border-radius: .5rem;
+  padding: .2rem;
+}
+
+.channel-head{
+  display: flex;
+  border-bottom: .1rem solid rgb(197, 194, 194);
+  padding: .5rem;
+  justify-content: space-between
+}
+
+.ctitle{
+  display: flex;
+  align-items: center;
+  margin-left: .5rem;
+}
+
+.channel-icon{
+  display: flex;
+  margin-right: 1rem;
+  justify-content: space-between;
+  width: 8rem;
+  color: rgb(197, 194, 194);
+  margin-block: auto;
+}
+
+.channel-body{
+  margin: 4% 18%;
+}
+
+.channel-body>img{
+  width: 40rem;
+  border: .1rem solid grey;
+}
+.channel-foot{
+  display: flex;
+  border-top: .1rem solid rgb(197, 194, 194);
+}
+
+.foot-icon{
+  display: flex;
+  justify-content: space-evenly;
+  width: 12rem;
+  color: rgb(197, 194, 194);
+  margin: .5rem 0 .5rem 1rem;
+}
+
+.Contact{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(152, 152, 152);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.Chaticon{
+  display: flex;
+}
+
+.icons{
+  margin-inline: 1rem;
+  font-size: 1.8rem;
+}
+
+.concise{
+  display: block;
+}
+
+.Profile{
+  display: flex;
+  align-items: center;
+  margin: .5rem;
+}
+
+.Profile>img{
+  border-radius: 50%;
+  border: .2rem solid white;
+  box-shadow: 0 0 10px white;
+  margin: .5rem; 
+}
+
+.GroupBox{
+  display: flex;
+  align-items: center;
+  margin: .5rem 0 0 3rem;
+}
+
+.GroupBox>img{
+  margin-left: -3rem;
+  border-radius: 50%;
+  border: .2rem solid white;
+  box-shadow: 0 0 10px white;
+  width: 3.4rem;
+  height: 4.5rem;
+}
+
+.GroupBox>h3{
+  margin-left: .5rem;
+}

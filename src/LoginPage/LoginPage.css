@@ -1,0 +1,127 @@
+body{
+  font: 1.6 helvetica;
+  box-sizing: border-box;
+  background-color: #F0F2F5;
+}
+
+.Login{
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  border-radius: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-block: 5rem;
+}
+
+.facebook{
+  height: auto;
+  width: 30%;
+}
+
+.facebooktext{
+  font-size: 6.5rem;
+  color: #1c64c3;
+  font-weight: 700;
+}
+
+.title{
+ font-size: 2.5rem;
+ color: black;
+ font-weight: 500;
+}
+
+.LoginContainer{
+  border: white .3rem solid;
+  background-color: white;
+  height: 35rem;
+  width: 22%;
+  padding: 1.5rem;
+  border-radius: .7rem;
+  box-shadow: 0px 0px 5px #afb8c5;
+}
+
+input[type=email],input[type=password]{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: .5rem;
+  border-color: #dadde1;
+  font-size: medium;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #1877F2;
+  border: none;
+  box-sizing: border-box;
+  padding: 15px 32px;
+  justify-content: center;
+  margin: 4px 2px;
+  color: white;
+  border-radius: .5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn>a{
+  text-decoration: none;
+  color: white;
+}
+
+.forget a{
+  color: #1877F2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.5rem;
+  border-bottom: .1rem #dadde1 solid;
+  padding-bottom: 1.5rem;
+  text-decoration: none;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F0F2F5;
+  background-color: #42B72A;
+  border: none;
+  padding: 15px 12px;
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+  width: 70%;
+  font-weight: medium;
+  border-radius: .5rem;
+  margin-inline: auto;
+}
+
+.page a{
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page{
+  font-size: 1.3rem;
+  margin-inline: 3.5rem;
+}
+
+input:focus{
+  box-shadow: 0px 0px 10px #0e66d9;
+}
+
+.btn:hover, .btns:hover{
+  opacity: .8;
+}
+
+.forget a:hover, .page a:hover{
+  text-decoration: underline;
+}

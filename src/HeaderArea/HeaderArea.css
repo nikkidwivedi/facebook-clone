@@ -1,0 +1,115 @@
+html{
+  font-size: 60%;
+  box-sizing: border-box;
+  margin-right: 0px;
+}
+
+*{
+  margin: 0%;
+}
+
+body{
+  font: 1.6rem helvetica;
+  background-color: #f0f2f5;
+  margin-right: 0%;
+}
+
+.HomePage{
+  display: grid;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  border: .1rem black;
+  box-shadow: 0px 0px 10px black;
+}
+
+.first-header{
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-inline: 2rem .5rem;
+}
+
+.Search{
+  display: flex;
+  align-items: center;
+  background-color: #f0f2f5;
+  border-radius: 4rem;
+  height: 4rem;
+  padding: 0 12px;
+  margin: 28px 0px;
+}
+
+input[type=Search]{
+  width: 100%;
+  height: 3.5rem;
+  padding: 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline-width: 50px;
+  background-color: #f0f2f5;
+  border: none;
+  font-size: 1.7rem;
+}
+
+input::placeholder{
+  font-size: 1.7rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middle-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70rem;
+}
+
+.Icon{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.third-header{
+  display: flex;
+  align-items: center;
+}
+
+.Plus{
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  margin: 0px 5px;
+  border-radius: 50%;
+  height: 4rem;
+  background-color: #f0f2f5;
+}
+
+.Pluss{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+  height: auto;
+  background-color: #f0f2f5;
+}
+
+.Pluss>img{
+  border-radius: 50%;
+  max-width: 100%;
+  height: 4rem;
+}
