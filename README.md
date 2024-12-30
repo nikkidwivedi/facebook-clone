@@ -1,5 +1,8 @@
-# This repository i created for learning purpose. Hello it's nikki here i'm learning ReactJS.
-# Individual project | Build and executed in 2 days
+### This repository i created for learning purpose. 
+### Hello it's nikki here i'm learning ReactJS. 
+### I started creating clone of facebook webpp try.
+### It's unresponsive for now Next time try to make responsive one...
+### Individual project | Build and executed in 2 days
 
 ---------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
